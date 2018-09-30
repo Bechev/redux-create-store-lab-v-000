@@ -1,5 +1,5 @@
 export default function createStore(reducer) {
-  let state; 
+  let state;
   function dispatch(action){
     state = changeCount(state, action)
     render()
@@ -18,4 +18,3 @@ export default function createStore(reducer) {
 function render() {
   const container = document.getElementById('container');
 }
-  
