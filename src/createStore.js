@@ -1,7 +1,7 @@
 export default function createStore(reducer) {
 
-  function dispatch(){
-    // state =
+  function dispatch(action){
+    state = changeCount(state, action)
   }
 
   function getState(){
