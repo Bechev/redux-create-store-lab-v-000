@@ -1,7 +1,7 @@
 export default function createStore(reducer) {
 
   function dispatch(){
-    state = 
+    // state =
   }
 
   function getState(){
